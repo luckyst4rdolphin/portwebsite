@@ -5,6 +5,7 @@
     import Links from "./lib/Links.svelte";
     import Card from "./lib/Card.svelte";
     import Quiz from "./lib/Quiz.svelte";
+    import Matilda from "./lib/assets/IMG_4038.PNG";
 
     let name = "Shamika";
     let bio = "And I like to create with 💗, both software and artworks alike.";
@@ -13,7 +14,7 @@
 
     let cardData = [
         {
-            portImage: "src/lib/assets/IMG_4038.PNG",
+            portImage: {Matilda},
             title: '"Matilda"',
             subtitle: "illustrator",
             outLink: "https://drive.google.com/file/d/178dmJJNy6o6zSwnzSb6FlX1ENb7n1DDk/view?usp=drive_link"
