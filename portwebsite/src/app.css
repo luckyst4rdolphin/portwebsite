@@ -1,0 +1,9 @@
+:root {
+  margin: 0;
+  background-color: #1A1A1B;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+}
