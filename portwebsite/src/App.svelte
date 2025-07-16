@@ -15,7 +15,7 @@
 
     let cardData = [
         {
-            portImage: "/IMG_4038.PNG",
+            portImage: "IMG_4038.PNG",
             title: '"Matilda"',
             subtitle: "illustrator",
             outLink: "https://drive.google.com/file/d/178dmJJNy6o6zSwnzSb6FlX1ENb7n1DDk/view?usp=drive_link"
