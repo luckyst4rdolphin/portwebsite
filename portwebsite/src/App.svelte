@@ -5,16 +5,17 @@
     import Links from "./lib/Links.svelte";
     import Card from "./lib/Card.svelte";
     import Quiz from "./lib/Quiz.svelte";
-    import Matilda from "./lib/assets/IMG_4038.PNG";
+    import Teaser from "./lib/assets/Teaser (Autodesk & Ai).jpg";
+    
 
     let name = "Shamika";
     let bio = "And I like to create with 💗, both software and artworks alike.";
     let cta = "Checkout my stuff. Let's work together.";
-    let heroIcon = "src/assets/v2.png"
+    let heroIcon = "/v2.png"
 
     let cardData = [
         {
-            portImage: {Matilda},
+            portImage: "/IMG_4038.PNG",
             title: '"Matilda"',
             subtitle: "illustrator",
             outLink: "https://drive.google.com/file/d/178dmJJNy6o6zSwnzSb6FlX1ENb7n1DDk/view?usp=drive_link"
@@ -32,7 +33,7 @@
             outLink: "https://drive.google.com/file/d/1mlMsRdWA5DsjdeIm7qkVoFfpVuHX9gPs/view?usp=drive_link"
         },
         {
-            portImage: "src/lib/assets/Teaser (Autodesk & Ai).jpg",
+            portImage: {Teaser},
             title: 'Podcast Teaser',
             subtitle: "illustrator / layout artist",
             outLink: "https://drive.google.com/file/d/1R_HDnDcIs7H_fjqpav2O5FvtJOj6bSR_/view?usp=drive_link"
