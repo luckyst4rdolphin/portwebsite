@@ -4,8 +4,8 @@
 
 <nav class="nav-container">
     <ul class="menu">
-        <li><a class="header-text" href="#works">works</a></li>
-        <li><a class="header-text" href="#fun-facts">fun facts</a></li>
+        <li><a class="header-text" href="#works">featured works</a></li>
+        <li><a class="header-text" href="#art">art</a></li>
     </ul> 
 </nav>
 
